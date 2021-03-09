@@ -1,4 +1,14 @@
 h1
 {
     color: #0065fc;
+    position: absolute;
+    top: 52px;
+    left: 53px;
 }
+
+nav
+{
+    position: absolute;
+    top: 60px;
+    right: 77px;
+}    
