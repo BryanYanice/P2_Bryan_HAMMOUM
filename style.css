@@ -77,10 +77,31 @@ a
     font-size: 13px;
 }
 
+form
+{
+    display: flex;
+    border: 1px solid black;
+}
+
 input
 {
     margin-top: 20px;
     margin-left: 55px;
+    height: 50px;
+    width: 185px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+button
+{
+    background-color: #0065fc;
+    color: #fff;
+    height: 50px;
+    width: 135px;
+    font-size: 15px;
+    text-decoration-color: #f2f2f2;
 }
 
 
