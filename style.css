@@ -14,7 +14,6 @@ body
 {
     width: 100%;
     height: 80px;
-    border: 1px solid black;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -43,6 +42,11 @@ nav
     margin-right: 65px;
 }
 
+.element:active
+{
+    color: black;
+}
+
 a
 {
     text-decoration: none;
@@ -53,7 +57,6 @@ a
 {
     width: 100%;
     height: 260px;
-    border: 1px solid black;
     display: flex;
     flex-flow: column wrap;
 }
@@ -80,7 +83,15 @@ a
 form
 {
     display: flex;
+}
+
+#choix
+{
+    width: 100%;
+    height: 115px;
     border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 input
@@ -92,6 +103,7 @@ input
     font-size: 15px;
     text-align: center;
     color: black;
+    border: 1px solid #f2f2f2;
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10px;
 }
@@ -103,16 +115,12 @@ button
     height: 50px;
     width: 135px;
     font-size: 15px;
-    text-decoration-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
 }
 
-#choix
-{
-    width: 100%;
-    height: 105px;
-}
+
 
 #filtre
 {
@@ -124,30 +132,60 @@ button
 
 .filtre
 {
-    margin-left: 24px;
+    margin-left: 25px;
+    margin-top: 30px;
     background-color: #fff;
     color: black;
 }
 
-.filtre :nth-of-type(1)
+.filtre:nth-of-type(1)
 {
-    
-
+    margin-left: 30px;
+    width: 195px;
 }
 
-.element2:nth-of-type(2)
+.filtre:nth-of-type(2)
 {
-    margin-left: 100px;
+    width: 150px;
 }
 
-.element2:nth-of-type(3)
+.filtre:nth-of-type(3)
 {
-
+    width: 185px;
 }
 
-.element2:nth-of-type(4)
+.filtre:nth-of-type(4)
 {
+    width: 240px;
+}
 
+#info
+{
+    width: 100%;
+    margin-left: 55px;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+#container
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 40px;
+    margin-left: 45px;
+    height: 625px;
+    width: 880px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+#bloc1
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 45px;
 }
 
 
