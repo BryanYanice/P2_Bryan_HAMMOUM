@@ -18,12 +18,20 @@ body
     justify-content: space-between;
 }
 
-h1
+/*h1
 {
     color: #0065fc;
     margin-top: 52px;
     margin-left: 55px;
     font-size: 22px;
+}*/
+
+#logo
+{
+    width:  195px;
+    height: 130px;
+    margin-top: 50px;
+    margin-left: 55px;
 }
 
 nav
