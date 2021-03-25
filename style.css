@@ -387,13 +387,14 @@ button
 {
     height: 390px;
     width: 300px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #paysage2
 {
-    display: flex;
-    flex-flow: column wrap;
+    /*display: flex;
+    flex-flow: column wrap;*/
     margin-top: 25px;
     margin-left: 45px;
     height: 445px;
@@ -411,5 +412,81 @@ button
 {
     height: 180px;
     width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#place2
+{
+    margin-top: 45px;
+    height: 165px;
+    border: 1px solid #f3f3f3;
     border-radius: 10px;
+}
+
+#activité3
+{
+    height: 110px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#paysage3
+{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 25px;
+    margin-left: 45px;
+    height: 445px;
+    width: 300px;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+}
+
+#activité4
+{
+    height: 390px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#paysage4
+{
+    margin-top: 25px;
+    margin-left: 45px;
+    height: 445px;
+    width: 300px;
+}
+
+#place3
+{
+    height: 195px;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+}
+
+#activité5
+{
+    height: 140px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#place4
+{
+    margin-top: 40px;
+    height: 210px;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+}
+
+#activité6
+{
+    height: 155px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
