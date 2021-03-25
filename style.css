@@ -2,6 +2,7 @@
 {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 
@@ -145,7 +146,7 @@ button
     background-color: #fff;
     color: black;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .filtre:nth-of-type(1)
@@ -198,7 +199,7 @@ button
 #container1
 {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     margin-left: 50px;
     width: 880px;
     border: 1px solid #f2f2f2;
@@ -220,55 +221,18 @@ button
     display: flex;
     flex-flow: row wrap;
     width: 100%;
-    /*margin-top: 25px;*/
-    /*margin-left: 40px;*/
 }
 
 .image
 {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     width: 245px;
     height: 200px;
     margin-left: 30px;
+    margin-top: 30px;
     background-color: #fff;
     border-radius: 10px;
-}
-
-.image:nth-of-type(1)
-{
-    margin-left: 40px;
-    margin-top: 30px;   
-}
-
-.image:nth-of-type(2)
-{
-    margin-left: 40px;
-    margin-top: 30px;       
-}
-
-.image:nth-of-type(3)
-{
-    margin-left: 40px;
-    margin-top: 30px;         
-}
-
-.image:nth-of-type(4)
-{
-    margin-left: 40px;
-    margin-top: 30px;
-}
-
-.image:nth-of-type(5)
-{
-    margin-left: 40px;
-    margin-top: 30px;
-}
-
-.image:nth-of-type(6)
-{
-    margin-left: 40px;
-    margin-top: 30px;
 }
 
 .photo
@@ -295,29 +259,35 @@ button
 
 #container2
 {
+    display: flex;
+    flex-flow: column nowrap;
     margin-left: 40px;
-    /*margin-top: 40px;*/
+    padding: 40px;
     width: 420px;
     border: 1px solid #f2f2f2;
     border-radius: 2%;
     background-color: #f2f2f2;
 }
 
+
+
+
 #bloc2
 {
+    display: flex;
+    justify-content: space-between;
     font-size: 16px;
     font-weight: bold;
-    margin-left: 40px;
-    margin-top: 45px;
+    width: 100%;
 }
+
+
 
 #picture
 {
     display: flex;
     flex-flow: column wrap;
-    width: 100%;
     margin-top: 25px;
-    margin-left: 40px;
 }
 
 .image2
@@ -489,4 +459,13 @@ button
     width: 300px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+#fin
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 60px;
+    background-color: #f2f2f2;
+    width: 100%;
 }
