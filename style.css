@@ -469,3 +469,73 @@ button
     background-color: #f2f2f2;
     width: 100%;
 }
+
+
+.finish
+{
+    margin-top: 20px;
+}
+
+
+#gauche
+{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 55px;
+}
+
+#propos
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#list
+{
+    font-size: 12px;
+    list-style-type: none;
+}
+
+#milieu
+{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom: 55px;
+}
+
+#qualité
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#list2
+{
+    font-size: 12px;
+    list-style-type: none;
+}
+
+#droite
+{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-bottom: 55px;
+}
+
+#assistance
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#list3
+{
+    font-size: 12px;
+    list-style-type: none;
+}
