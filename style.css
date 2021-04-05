@@ -117,6 +117,8 @@ button.recherche
     font-size: 15px;
     border: 1px solid #f2f2f2;
     border-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .fa-map-marker-alt
@@ -146,15 +148,20 @@ button.recherche
     background-color: #fff;
     color: black;
     height: 50px;
+    border: 1px solid #d9d9d9;
     border-radius: 30px;
+}
+
+.espace
+{
+    margin-left: 14px;
+    margin-right: 22px;
 }
 
 .filtre:nth-of-type(1)
 {
     margin-left: 30px;
 }
-
-
 
 .fa-money-bill-wave
 {
@@ -591,18 +598,20 @@ button.recherche
     list-style-type: none;
 }
 
-@media screen and (max-width: 375px) {
-    #conteneur {
-        flex-direction: column;
-        height: auto;
+@media screen and (max-width: 1440px) {
+    #program {
+        display: flex;
+        flex-flow: column wrap;
     }
 
-    #conteneur2 {
-        display: flex;
-        flex-direction: column;
+    #activité-1 {
+        max-width: 335px;
+        min-width: 300px;
+        height: 135px;
     }
-    #program
-    {
-        
+
+    .nom-1 {
+        margin-top: 20px;
     }
+    
 }
