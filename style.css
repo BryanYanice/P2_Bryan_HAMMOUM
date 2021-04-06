@@ -206,8 +206,11 @@ button.recherche
 .fa-info-circle
 {
     font-size: 17px;
-    color: #0065fc;
+    color: #fff;
+    background-color: #0065fc;
     margin-right: 12px;
+    border: 1PX solid #dbdbdb;
+    border-radius: 10px;
 }
 
 #info
@@ -599,6 +602,46 @@ button.recherche
 }
 
 @media screen and (max-width: 1440px) {
+    .element2 {
+        margin-left: 20px;
+        margin-top: 45px;
+    }
+
+    .fa-map-marker-alt {
+        margin-left: 21px;
+        margin-top: 35px;
+    }
+
+    #filtre {
+        margin-left: 23px;
+        margin-top: 35px;
+    }
+
+    .filtre:nth-of-type(1) {
+        margin-left: 20px;
+        margin-top: 18px;
+    }
+
+    .filtre:nth-of-type(2) {
+        margin-left: 11px;
+        margin-top: 18px;
+    }
+
+    .filtre:nth-of-type(3) {
+        margin-left: 20px;
+        margin-top: 13px;
+    }
+
+    .filtre:nth-of-type(4) {
+        margin-left: 20px;
+        margin-top: 13px;
+    }
+
+    #info {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
     #program {
         display: flex;
         flex-flow: column wrap;
@@ -610,8 +653,6 @@ button.recherche
         height: 135px;
     }
 
-    .nom-1 {
-        margin-top: 20px;
-    }
+    
     
 }
