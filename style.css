@@ -302,9 +302,6 @@ button.recherche
     background-color: #f2f2f2;
 }
 
-
-
-
 #bloc2
 {
     display: flex;
@@ -313,8 +310,6 @@ button.recherche
     font-weight: bold;
     width: 100%;
 }
-
-
 
 #picture
 {
@@ -653,6 +648,47 @@ button.recherche
         height: 135px;
     }
 
+    #container1 {
+        background-color: #f9f9f9;
+        margin-left: 0px;
+        width: 410px;
+        border: #f9f9f9;
+        border-radius: 0px;
+    }
+
+    #bloc1 {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    #image1 {
+        width: 410px;
+    }
+
+    .image {
+        width: 335px;
+    }
+
+    .photo {
+        width: 325px;
+    }
+
+    #container2 {
+        width: 410px;
+        border-radius: 0px;
+        margin-left: 0px;
+    }
+
+    .image2 {
+        width: 335px;
+    }
+
+    .photo2 {
+        width: 125px;
+        height: 135px;
+    }
+
+    
     
     
 }
