@@ -266,6 +266,7 @@ button.recherche
     margin-top: 30px;
     background-color: #fff;
     border-radius: 10px;
+    box-shadow: 3px 3px 10px #d9d9d9;
 }
 
 .photo
@@ -335,6 +336,7 @@ button.recherche
     margin-bottom: 35px;
     background-color: #fff;
     border-radius: 10px;
+    box-shadow: 3px 3px 10px #d9d9d9;
 }
 
 .photo2
@@ -645,28 +647,22 @@ button.recherche
         margin-top: 30px;
     }
 
-    #program {
-        display: flex;
-        flex-flow: column wrap;
-    }
-
-    #activité-1 {
-        max-width: 335px;
-        min-width: 300px;
-        height: 135px;
+    #container {
+        flex-flow: column-reverse;
     }
 
     #container1 {
-        background-color: #f9f9f9;
+        background-color: #fff;
         margin-left: 0px;
+        margin-top: 40px;
         width: 410px;
-        border: #f9f9f9;
+        border: #fff;
         border-radius: 0px;
     }
 
     #bloc1 {
         margin-left: 20px;
-        margin-top: 40px;
+        margin-top: 0px;
     }
 
     #image1 {
@@ -679,6 +675,11 @@ button.recherche
 
     .photo {
         width: 325px;
+    }
+
+    .plus {
+        margin-top: 35px;
+        margin-left: 20px;
     }
 
     #container2 {
@@ -698,10 +699,102 @@ button.recherche
 
     #activity {
         width: 410px;
+        height: 1310px;
         margin-top: 60px;
     }
 
+    #chois {
+        margin-left: 20px;
+    }
 
+    #program {
+        /*display: flex;
+        flex-flow: column wrap;*/
+        grid-template-columns: 335px;
+        grid-template-rows: 190px 190px 190px 190px 190px 190px 190px;
+        grid-gap: 25px;
+        margin-left: 20px;
+    }
+
+    .activité-1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 335px;
+        height: 135px;
+    }
+
+    .nom-1 {
+        margin-top: 155px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .activité-2 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        width: 335px;
+        height: 135px;
+    }
+
+    .nom-2 {
+        margin-top: 155px;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .activité-3 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        width: 335px;
+        height: 135px;
+        margin-top: 0px;
+    }
+
+    .nom-3 {
+        margin-top: 155px;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    .activité-4 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        width: 335px;
+        height: 135px;
+    }
+
+    .nom-4 {
+        margin-top: 155px;
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
+    .activité-5 {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+        width: 335px;
+        height: 135px;
+    }
+
+    .nom-5 {
+        margin-top: 155px;
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+
+    .activité-6 {
+        grid-column: 1 / 2;
+        grid-row: 6 / 7;
+        width: 335px;
+        height: 135px;
+        margin-top: 0px;
+    }
+
+    .nom-6 {
+        margin-top: 155px;
+        grid-column: 1 / 2;
+        grid-row: 6 / 7;
+    }
 
     #fin {
         width: 410px;
