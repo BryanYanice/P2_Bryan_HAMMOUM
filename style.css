@@ -369,163 +369,83 @@ button.recherche
     margin-left: 50px;
     margin-top: 25px;
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 446px;
-    grid-gap: 43px;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-areas: "large1 small1 large2 small3"
+                         "large1 small1 large2 empty2"
+                         "large1 empty1 large2 small4"
+                         "large1 small2 large2 small4";
+    grid-column-gap: 45px;
 }
 
-.activité-1
+.card 
 {
-	width: 301px;
-	height: 390px;
-    border-top: 1px solid #f2f2f2;
-    border-right: 1px solid #f2f2f2;
-    border-left: 1px solid #f2f2f2;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-    grid-column: 1 / 2;
-	grid-row: 1 / 2;
+    box-shadow:
+    0 1.4px 2.1px -15px rgba(0, 0, 0, 0.02),
+    0 3.3px 4.8px -15px rgba(0, 0, 0, 0.028),
+    0 6.3px 8.9px -15px rgba(0, 0, 0, 0.035),
+    0 11.2px 16.6px -15px rgba(0, 0, 0, 0.042),
+    0 20.9px 34.1px -15px rgba(0, 0, 0, 0.05),
+    0 50px 80px -15px rgba(0, 0, 0, 0.07)
+    ;
+    border: 1px solid #f2f2f2;
+    overflow: hidden;
+	border-radius: 10px;
+    display: grid;
+    grid-template-rows: calc(100% - 55px) 55px;
 }
 
-.nom-1
+.card-1
+{
+	height: 445px;
+    grid-area: large1;
+}
+
+.card .nom
 {
     font-size: 12px;
     font-weight: bold;
-    margin-left: 20px;
-    margin-top: 410px;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    padding-left: 20px;
     font-weight: bold; 
-    border-bottom: 1px solid #f2f2f2;
-    border-right: 1px solid #f2f2f2;
-    border-left: 1px solid #f2f2f2;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+    height: 55px;
+    line-height: 55px;
 }
 
-.activité-2
+.card .activité
 {
-    grid-column: 2 / 3;
-	grid-row: 1 / 2;
-    width: 300px;
-    height: 180px;
-    border-top: 1px solid #f2f2f2;
-    border-right: 1px solid #f2f2f2;
-    border-left: 1px solid #f2f2f2;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* améliore la netteté des image */
 }
 
-.nom-2
+.card-2
 {
-    font-size: 12px;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 202px;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    font-weight: bold;        
+    grid-area: small1;
+    height: 235px;
 }
 
-.activité-3
+.card-3
 {
-    grid-column: 2 / 3;
-	grid-row: 1  / 2; 
-    margin-top: 280px;
-    width: 300px;
-    height: 110px; 
-    border-top: 1px solid #f2f2f2;
-    border-right: 1px solid #f2f2f2;
-    border-left: 1px solid #f2f2f2;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+    grid-area: small2; 
+    height: 165px; 
 }
 
-.nom-3
+.card-4
 {
-    font-size: 12px;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 410px;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    font-weight: bold;       
-} 
-
-.activité-4
-{
-    width: 300px;
-	height: 390px;
-    grid-column: 3 / 4;
-	grid-row: 1 / 2;
-    border-top: 1px solid #f2f2f2;
-    border-right: 1px solid #f2f2f2;
-    border-left: 1px solid #f2f2f2;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;       
+    height: 445px;
+    grid-area: large2;
 }
 
-.nom-4
+.card-5
 {
-    font-size: 12px;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 410px;
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-    font-weight: bold;           
+	height: 195px;
+    grid-area: small3;
 }
 
-.activité-5
+.card-6
 {
-    width: 300px;
-	height: 140px;
-    border-top: 1px solid #f2f2f2;
-    border-right: 1px solid #f2f2f2;
-    border-left: 1px solid #f2f2f2;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;   
-    grid-column: 4 / 5;
-	grid-row: 1 / 2;
+	height: 210px;
+    grid-area: small4;
 }
-
-.nom-5
-{
-    font-size: 12px;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 161px;
-    grid-column: 4 / 5;
-    grid-row: 1 / 2;
-    font-weight: bold;       
-}
-
-.activité-6
-{
-    width: 300px;
-	height: 155px;
-    margin-top: 236px;
-    border-top: 1px solid #f2f2f2;
-    border-right: 1px solid #f2f2f2;
-    border-left: 1px solid #f2f2f2;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;   
-    grid-column: 4 / 5;
-	grid-row: 1 /  2;
-}
-
-.nom-6
-{
-    font-size: 12px;
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 410px;
-    grid-column: 4 / 5;
-    grid-row: 1 / 2;
-    font-weight: bold;        
-}
-
-
 
 #fin
 {
@@ -536,12 +456,10 @@ button.recherche
     width: 100%;
 }
 
-
 .finish
 {
     margin-top: 20px;
 }
-
 
 #gauche
 {
@@ -708,92 +626,15 @@ button.recherche
     }
 
     #program {
-        /*display: flex;
-        flex-flow: column wrap;*/
         grid-template-columns: 335px;
-        grid-template-rows: 190px 190px 190px 190px 190px 190px 190px;
+        grid-auto-rows: 190px;
+        grid-template-areas: "large1" "small1" "small2" "large2" "small3" "small4";
         grid-gap: 25px;
         margin-left: 20px;
     }
 
-    .activité-1 {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-        width: 335px;
-        height: 135px;
-    }
-
-    .nom-1 {
-        margin-top: 155px;
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-    }
-
-    .activité-2 {
-        grid-column: 1 / 2;
-        grid-row: 2 / 3;
-        width: 335px;
-        height: 135px;
-    }
-
-    .nom-2 {
-        margin-top: 155px;
-        grid-column: 1 / 2;
-        grid-row: 2 / 3;
-    }
-
-    .activité-3 {
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
-        width: 335px;
-        height: 135px;
-        margin-top: 0px;
-    }
-
-    .nom-3 {
-        margin-top: 155px;
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
-    }
-
-    .activité-4 {
-        grid-column: 1 / 2;
-        grid-row: 4 / 5;
-        width: 335px;
-        height: 135px;
-    }
-
-    .nom-4 {
-        margin-top: 155px;
-        grid-column: 1 / 2;
-        grid-row: 4 / 5;
-    }
-
-    .activité-5 {
-        grid-column: 1 / 2;
-        grid-row: 5 / 6;
-        width: 335px;
-        height: 135px;
-    }
-
-    .nom-5 {
-        margin-top: 155px;
-        grid-column: 1 / 2;
-        grid-row: 5 / 6;
-    }
-
-    .activité-6 {
-        grid-column: 1 / 2;
-        grid-row: 6 / 7;
-        width: 335px;
-        height: 135px;
-        margin-top: 0px;
-    }
-
-    .nom-6 {
-        margin-top: 155px;
-        grid-column: 1 / 2;
-        grid-row: 6 / 7;
+    .card {
+        height: 190px;
     }
 
     #fin {
