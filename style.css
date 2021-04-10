@@ -523,6 +523,35 @@ button.recherche
 }
 
 @media screen and (max-width: 1440px) {
+    #logo {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    nav {
+        margin-top: 40px;
+        width: 410px;
+    }
+
+    .element {
+        margin-right: 0px;
+    }
+
+    .element-1 {
+        margin-left: 40px;
+        margin-right: 0px;
+    }
+
+    .element-2 { 
+        margin-left: 95px;
+        margin-right: 0px;
+    }
+
+    .element-3 {
+        margin-top: 0px;
+        margin-left: 285px;
+    }
+
     .element2 {
         margin-left: 20px;
         margin-top: 45px;
