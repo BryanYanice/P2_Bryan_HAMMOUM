@@ -250,8 +250,16 @@ button.recherche
 
 .description
 {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
     margin-top: 12px;
+    margin-left: 15px;
+}
+
+.nuit
+{
+    font-size: 12px;
+    margin-top: 8px;
     margin-left: 15px;
 }
 
@@ -316,6 +324,23 @@ button.recherche
     margin-left: 5px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.description-2
+{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 33px;
+}
+
+.nuit-2
+{
+    font-size: 12px;
+    position: relative;
+    left: 155px;
+    bottom: 80px;
 }
 
 #activity
@@ -504,6 +529,7 @@ button.recherche
 
     .element {
         margin-right: 0px;
+        font-size: 13px;
     }
 
     .element-1 {
@@ -519,6 +545,9 @@ button.recherche
     .element-3 {
         margin-top: 0px;
         margin-left: 285px;
+        position: relative;
+        bottom: 75px;
+        left: 50px;
     }
 
     .element2 {
