@@ -115,7 +115,7 @@ input
     border: 1px solid #f2f2f2;
 }
 
-button.recherche
+.recherche-1
 {
     background-color: #0065fc;
     color: #fff;
@@ -125,6 +125,11 @@ button.recherche
     border-left: 0px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.fa-search:before
+{
+    display: none;
 }
 
 .fa-map-marker-alt
@@ -295,6 +300,7 @@ button.recherche
     font-size: 16px;
     font-weight: bold;
     width: 100%;
+    margin-top: 10px;
 }
 
 #picture
@@ -557,7 +563,17 @@ button.recherche
 
     .fa-map-marker-alt {
         margin-left: 21px;
-        margin-top: 35px;
+    }
+
+    .recherche-1
+    {
+        display: none;
+    }
+
+    .fa-search
+    {
+        width: 51px;
+        height: 51px;
     }
 
     #filtre {
@@ -604,7 +620,7 @@ button.recherche
     }
 
     #bloc1 {
-        margin-left: 20px;
+        margin-left: 30px;
         margin-top: 0px;
     }
 
@@ -622,7 +638,7 @@ button.recherche
 
     .plus {
         margin-top: 35px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     #container2 {
@@ -647,7 +663,7 @@ button.recherche
     }
 
     #chois {
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     #program {
@@ -655,7 +671,7 @@ button.recherche
         grid-auto-rows: 190px;
         grid-template-areas: "large1" "small1" "small2" "large2" "small3" "small4";
         grid-gap: 25px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .card {
