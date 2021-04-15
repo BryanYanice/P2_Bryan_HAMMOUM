@@ -47,6 +47,11 @@ nav
     color: black;
 }
 
+.element-3
+{
+    margin-right: 132px;
+}
+
 a
 {
     text-decoration: none;
@@ -250,6 +255,7 @@ input
     height: 115px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
 }
 
 .description
@@ -329,6 +335,7 @@ input
     margin-left: 5px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    object-fit: cover;
 }
 
 .description-2
@@ -626,7 +633,6 @@ input
 
     #bloc1 {
         margin-left: 20px;
-        margin-top: 0px;
     }
 
     #image1 {
@@ -655,6 +661,7 @@ input
 
     #bloc2 {
         margin-left: -20px;
+        margin-top: 0px;
     }
 
     #picture {
