@@ -201,12 +201,21 @@ input
     font-size: 13px;
 }
 
+#info-2
+{
+    font-size: Bree Serif;
+    border: 1px solid #ededed;
+    border-radius: 100%;
+    margin-right: 10px;
+    padding: 3px 9px;
+    color: #0065fc;
+}
+
 #container
 {
     display: flex;
     flex-flow: row wrap;
     margin-top: 40px;
-    
 }
 
 #container1
@@ -237,6 +246,19 @@ input
 }
 
 .image
+{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 245px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #d9d9d9;
+}
+
+.image2-3
 {
     display: flex;
     flex-flow: column nowrap;
@@ -349,10 +371,25 @@ input
     flex-flow: row wrap;
     width: 345px;
     height: 145px;
-    margin-bottom: 35px;
+    
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 3px 3px 10px #d9d9d9;
+}
+
+.image1sur3
+{
+    margin-bottom: 35px;
+}
+
+.image2sur3
+{
+    margin-bottom: 35px;
+}
+
+.image3sur3
+{
+    margin-bottom: 0px;
 }
 
 .photo2
@@ -668,6 +705,11 @@ input
     }
 
     .image {
+        width: 335px;
+        margin-left: 20px;
+    }
+
+    .image2-3 {
         width: 335px;
         margin-left: 20px;
     }
