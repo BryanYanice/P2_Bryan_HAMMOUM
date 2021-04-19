@@ -165,7 +165,7 @@ input
     background-color: #fff;
     color: black;
     height: 50px;
-    border: 1px solid #d9d9d9;
+    border: 2px solid #d9d9d9;
     border-radius: 30px;
 }
 
@@ -189,7 +189,7 @@ input
     background-color: #deebff;
     font-size: 16px;
     border-radius: 50%;
-    transform: translate(-2px, -1px);
+    transform: translate(-3px, -2px);
     line-height: 50px;
 }
 
@@ -251,24 +251,42 @@ input
     flex-flow: column nowrap;
     width: 245px;
     height: 200px;
-    margin-left: 40px;
-    margin-top: 30px;
+    /*margin-left: 40px;
+    margin-top: 25px;*/
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 3px 3px 10px #d9d9d9;
 }
 
+.image-1
+{
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
 .image2-3
 {
-    display: flex;
+    /*display: flex;
     flex-flow: column nowrap;
     width: 245px;
-    height: 200px;
+    height: 200px;*/
+    margin-left: 30px;
+    margin-top: 25px;
+    /*background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #d9d9d9;*/
+}
+
+.image-4
+{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.image5-6
+{
     margin-left: 30px;
     margin-top: 30px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px #d9d9d9;
 }
 
 .photo
@@ -379,17 +397,17 @@ input
 
 .image1sur3
 {
-    margin-bottom: 35px;
+    /*margin-bottom: 35px;*/
 }
 
 .image2sur3
 {
-    margin-bottom: 35px;
+    margin-top: 35px;
 }
 
 .image3sur3
 {
-    margin-bottom: 0px;
+    margin-top: 35px;
 }
 
 .photo2
@@ -636,6 +654,11 @@ input
         margin-left: 21px;
     }
 
+    .recherche {
+        width: 238px;
+        padding-right: 75px;
+    }
+
     .recherche-1 {
         width: 50px;
         border-top: #0065fc;
@@ -698,6 +721,7 @@ input
 
     #bloc1 {
         margin-left: 20px;
+        margin-top: 0px;
     }
 
     #image1 {
@@ -745,6 +769,11 @@ input
     .photo2 {
         width: 125px;
         height: 135px;
+    }
+
+    .nuit-2 {
+        position: relative;
+        left: 150px;
     }
 
     #activity {
