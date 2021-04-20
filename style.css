@@ -69,7 +69,6 @@ a
 {
     display: flex;
     flex-flow: row nowrap;
-    margin-top: 20px;
 }
 
 
@@ -95,11 +94,24 @@ a
 form
 {
     display: flex;
+    margin-left: 55px;
+    margin-top: 25px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: max-content;
 }
 
 .recherche
 {
     height: 50px;
+}
+
+.recherche::placeholder
+{
+    color: black;
+    font-weight: bold;
 }
 
 #choix
@@ -115,8 +127,7 @@ input
     width: 185px;
     font-size: 15px;
     text-align: center;
-    color: black;
-    border: 1px solid #f2f2f2;
+    border: none;
 }
 
 
@@ -126,14 +137,16 @@ input
     background-color: #0065fc;
     color: #fff;
     width: 135px;
+    height: 50px;
     font-size: 15px;
-    border: 1px solid #f2f2f2;
+    border: none;
     border-left: 0px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    transform: scale(1.04);
 }
 
-.fa-search
+.fas.fa-search
 {
     display: none;
 }
@@ -141,12 +154,11 @@ input
 .fa-map-marker-alt
 {
     font-size: 16px;
-    border: 1px solid #f2f2f2;
     padding: 15px 15px 16.5px 16px;
-    margin-left: 55px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     background-color: #f2f2f2;
+    transform: scale(1.04);
 }
 
 #filtre
@@ -216,6 +228,7 @@ input
     display: flex;
     flex-flow: row wrap;
     margin-top: 40px;
+    justify-content: space-betweens;
 }
 
 #container1
@@ -359,8 +372,9 @@ input
     display: flex;
     flex-flow: column nowrap;
     margin-left: 40px;
+    margin-right: 50px;
     padding: 40px;
-    width: 420px;
+    /*width: 420px;*/
     border: 1px solid #f2f2f2;
     border-radius: 2%;
     background-color: #f2f2f2;
@@ -650,8 +664,8 @@ input
         margin-top: 45px;
     }
 
-    .fa-map-marker-alt {
-        margin-left: 21px;
+    form {
+        margin-left: 20px;
     }
 
     .recherche {
@@ -664,16 +678,18 @@ input
         border-top: #0065fc;
         border-bottom: #0065fc;
         border-radius: 15px;
+        
     }
 
     .recherche-2 {
         display: none;
     }
 
-    .fa-search {
+    .fas.fa-search {
         font-size: 17px;
         background-color: #0065fc;
         color: #fff;
+        display: block;
     }
 
     #filtre {
