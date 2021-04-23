@@ -112,6 +112,8 @@ form
 {
     color: black;
     font-weight: bold;
+    padding-left: 17px;
+    padding-right: 70px;
 }
 
 #choix
@@ -124,19 +126,17 @@ form
 input
 {
     margin-left: 0px;
-    width: 185px;
+    /*width: 185px;*/
     font-size: 15px;
     text-align: center;
     border: none;
 }
 
-
-
 .recherche-1
 {
     background-color: #0065fc;
     color: #fff;
-    width: 135px;
+    /*width: 135px;*/
     height: 50px;
     font-size: 15px;
     border: none;
@@ -144,6 +144,12 @@ input
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     transform: scale(1.04);
+}
+
+.recherche-2
+{
+    padding-left: 18px;
+    padding-right: 17px;
 }
 
 .fas.fa-search
@@ -181,6 +187,15 @@ input
     border-radius: 30px;
 }
 
+.filtre-1
+{
+    margin-left: 30px;
+}
+
+.filtre-4
+{
+    
+}
 .espace
 {
     margin-left: 14px;
@@ -191,7 +206,7 @@ input
 
 .filtre:nth-of-type(1)
 {
-    margin-left: 30px;
+    /*margin-left: 30px;*/
 }
 
 .fas.fitericon
@@ -248,7 +263,6 @@ input
     border-radius: 10px;
     background-color: #f2f2f2;
 }
-
 
 #bloc1
 {
@@ -562,6 +576,7 @@ input
     margin-top: 60px;
     background-color: #f2f2f2;
     width: 100%;
+    justify-content: space-between;
 }
 
 .finish
@@ -595,7 +610,7 @@ input
     display: flex;
     flex-flow: column wrap;
     margin-top: 50px;
-    margin-left: 330px;
+    /*margin-left: 330px;*/
     margin-bottom: 55px;
 }
 
@@ -616,8 +631,9 @@ input
     display: flex;
     flex-flow: column wrap;
     margin-top: 50px;
-    margin-left: 300px;
+    /*margin-left: 300px;*/
     margin-bottom: 55px;
+    margin-right: 370px;
 }
 
 #assistance
@@ -676,8 +692,13 @@ input
     }
 
     .recherche {
-        width: 238px;
-        padding-right: 75px;
+        /*width: 238px;
+        padding-right: 75px;*/
+    }
+
+    .recherche::placeholder {
+        padding-left: 20px;
+        padding-right: 65px;
     }
 
     .recherche-1 {
@@ -685,7 +706,6 @@ input
         border-top: #0065fc;
         border-bottom: #0065fc;
         border-radius: 15px;
-        
     }
 
     .recherche-2 {
@@ -850,5 +870,6 @@ input
         margin-left: 20px;
         margin-top: 50px;
         margin-bottom: 50px;
+        margin-right: 0px;
     }
 }
