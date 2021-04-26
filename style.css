@@ -177,7 +177,6 @@ input
 
 .filtre
 {
-    margin-left: 25px;
     margin-top: 30px;
     font-weight: bold;
     background-color: #fff;
@@ -187,15 +186,21 @@ input
     border-radius: 30px;
 }
 
-.filtre-1
+#filtre-container
 {
-    margin-left: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 950px;
+    flex-flow: row wrap;
 }
 
-.filtre-4
+.filtre-1
 {
-    
 }
+
+
 .espace
 {
     margin-left: 14px;
@@ -228,6 +233,8 @@ input
     margin-left: 55px;
     margin-top: 40px;
     font-size: 13px;
+    display: flex;
+    align-items: flex-start;
 }
 
 #info-2
@@ -240,9 +247,10 @@ input
     color: #0065fc;
 }
 
-.ligne 
+.logement
 {
-    display: none;
+    display: inline-block;
+    padding-top: 5px;
 }
 
 #container
@@ -372,7 +380,7 @@ input
     color: #d9d9d9;
 }
 
-.étoile2
+.etoile2
 {
     margin-left: 5px;
     position: relative;
@@ -532,7 +540,7 @@ input
     line-height: 55px;
 }
 
-.card .activité
+.card .activite
 {
     height: 100%;
     width: 100%;
@@ -614,7 +622,7 @@ input
     margin-bottom: 55px;
 }
 
-#qualité
+#qualite
 {
     font-size: 12px;
     font-weight: bold;
@@ -724,7 +732,15 @@ input
         margin-top: 35px;
     }
 
-    .filtre:nth-of-type(1) {
+    #filtre-container {
+        justify-content: flex-start;
+    }
+
+    .filtre {
+        margin-left: 20px;
+    }
+
+    /*.filtre:nth-of-type(1) {
         margin-left: 20px;
         margin-top: 18px;
     }
@@ -742,7 +758,7 @@ input
     .filtre:nth-of-type(4) {
         margin-left: 20px;
         margin-top: 13px;
-    }
+    }*/
 
     #info {
         margin-left: 20px;
