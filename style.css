@@ -699,7 +699,10 @@ input
 
     form {
         margin-left: 20px;
-        width: 100%;
+        width: auto;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-right: 20px;
     }
 
     #Marseille {
@@ -713,6 +716,8 @@ input
     }
 
     .recherche::placeholder {
+        padding-left: 20px;
+        padding-right: 65px;
     }
 
     .recherche-1 {
@@ -731,6 +736,8 @@ input
         background-color: #0065fc;
         color: #fff;
         display: block;
+        padding-left: 17px;
+        padding-right: 17px;
     }
 
     #filtre {
