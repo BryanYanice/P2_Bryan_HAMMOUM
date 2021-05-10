@@ -334,8 +334,10 @@ input
 .photo
 {
     margin-left: 5px;
+    margin-right: 5px; /* test */
     margin-top: 5px;
-    width: 235px;
+    /*width: 235px;*/
+    width: auto; /* test */
     height: 115px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -402,7 +404,7 @@ input
     flex-flow: column nowrap;
     margin-left: 40px;
     margin-right: 50px;
-    padding: 40px;
+    /*padding: 40px;*/
     border: 1px solid #f2f2f2;
     border-radius: 2%;
     background-color: #f2f2f2;
@@ -414,15 +416,24 @@ input
     justify-content: space-between;
     font-size: 16px;
     font-weight: bold;
-    width: 100%;
-    margin-top: 10px;
+    /*width: 100%;*/
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+.fas.fa-chart-line
+{
+    margin-right: 40px;
 }
 
 #picture
 {
     display: flex;
     flex-flow: column wrap;
+    width: 345px;
     margin-top: 25px;
+    margin-left: 37px;
+    margin-right: 40px;
 }
 
 .image2
@@ -431,7 +442,6 @@ input
     flex-flow: row wrap;
     width: 345px;
     height: 145px;
-    
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 3px 3px 10px #d9d9d9;
@@ -445,6 +455,7 @@ input
 .image3sur3
 {
     margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .photo2
@@ -789,17 +800,22 @@ input
     }
 
     .image {
-        width: 335px;
+        /*width: 335px;*/
+        width: 100%; /* test */
         margin-left: 20px;
+        margin-right: 20px; /* test */
     }
 
     .image2-3 {
-        width: 335px;
+        /*width: 335px;*/
+        width: 100%; /* test */
         margin-left: 20px;
+        margin-right: 20px; /* test */
     }
 
     .photo {
-        width: 325px;
+        /*width: 325px;*/
+        width: auto;
     }
 
     .plus {
@@ -814,16 +830,25 @@ input
     }
 
     #bloc2 {
-        margin-left: -20px;
-        margin-top: 0px;
+        /*margin-left: -20px;
+        margin-top: 0px;*/
+        margin-left: 20px;
+        margin-top: 45px;
+    }
+
+    .fas.fa-chart-line {
+        margin-right: 20px;
     }
 
     #picture {
-        margin-left: -20px;
+        /*margin-left: -20px;*/
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
     }
 
     .image2 {
-        width: 335px;
+        width: 100%;
     }
 
     .photo2 {
@@ -847,11 +872,12 @@ input
     }
 
     #program {
-        grid-template-columns: 335px;
+        grid-template-columns: 100%;
         grid-auto-rows: 190px;
         grid-template-areas: "large1" "small1" "small2" "large2" "small3" "small4";
         grid-gap: 25px;
         margin-left: 20px;
+        margin-right: 20px;
     }
 
     .card {
@@ -882,3 +908,28 @@ input
         margin-right: 0px;
     }
 }
+
+/*@media screen and (max-width: 375px) {
+    .image {
+        width: 275px;
+    }
+
+    .photo {
+        width: 265px;
+    }
+
+    #container2 {
+        width: 100%;
+        border-radius: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .image2 {
+        width: 275px;
+    }
+
+    #program {
+        grid-template-columns: 275px;
+    }
+}*/
