@@ -471,6 +471,8 @@ input
 
 .global
 {
+    display: flex;
+    flex-flow: column;
     margin-left: 20px;
 }
 
