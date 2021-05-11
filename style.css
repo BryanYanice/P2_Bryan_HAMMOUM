@@ -382,13 +382,13 @@ input
     color: #d9d9d9;
 }
 
-.etoile2
+/*.etoile2
 {
     margin-left: 5px;
     position: relative;
     bottom: 30px;
     left: 20px;
-}
+}*/
 
 .plus
 {
@@ -469,21 +469,32 @@ input
     object-fit: cover;
 }
 
+.global
+{
+    margin-left: 20px;
+}
+
 .description-2
 {
     font-size: 14px;
     font-weight: bold;
     margin-top: 20px;
-    margin-left: 20px;
-    height: 33px;
+    /*margin-left: 20px;
+    height: 33px;*/
 }
 
 .nuit-2
 {
     font-size: 12px;
-    position: relative;
+    margin-top: 10px;
+    /*position: relative;
     left: 155px;
-    bottom: 80px;
+    bottom: 80px;*/
+}
+
+.etoile2
+{
+    margin-top: 40px;
 }
 
 #activity
@@ -659,7 +670,9 @@ input
     list-style-type: none;
 }
 
-@media screen and (max-width: 1440px) {
+/* 1440px */
+
+@media screen and (max-width: 1024px) {
     #logo {
         margin-top: 30px;
         margin-left: 20px;
@@ -685,11 +698,6 @@ input
 
     .element-1 {
         border-bottom-color: #0065fc;
-        
-    }
-
-    .element-2 { 
-        
     }
 
     .element-3 {
@@ -700,7 +708,6 @@ input
         padding-bottom: 0px;
         border-bottom: none;
         width: auto;
-
     }
 
     .element2 {
@@ -857,8 +864,8 @@ input
     }
 
     .nuit-2 {
-        position: relative;
-        left: 150px;
+        /*position: relative;
+        left: 150px;*/
     }
 
     #activity {
