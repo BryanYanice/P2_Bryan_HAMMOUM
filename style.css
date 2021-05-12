@@ -883,3 +883,21 @@ input
     }
 }
 
+@media screen and (max-width: 280px) {
+    .image2 {
+        flex-flow: row nowrap;
+    }
+
+    .global {
+        margin-left: 15px;
+    }
+
+    .etoile2 {
+        margin-top: 10px;
+    }
+
+    .galaxy {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+}
