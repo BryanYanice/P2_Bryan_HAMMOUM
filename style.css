@@ -273,7 +273,7 @@ input
     display: flex;
     flex-flow: column nowrap;
     margin-left: 50px;
-    width: 880px;
+    width: calc(100% - 600px);
     border-radius: 10px;
     background-color: #f2f2f2;
 }
@@ -290,7 +290,10 @@ input
 {
     display: flex;
     flex-flow: row wrap;
-    width: 100%;
+    /*width: 100%;*/
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
 }
 
 .image
@@ -304,7 +307,8 @@ input
     box-shadow: 3px 3px 10px #d9d9d9;
 }
 
-.lodging:hover
+.lodging:hover,
+#program .card:hover
 {
     transform: scale(1.05);
     color: black;
@@ -312,25 +316,25 @@ input
 
 .image-1
 {
-    margin-left: 40px;
+    /*margin-left: 40px;*/
     margin-top: 25px;
 }
 
 .image2-3
 {
-    margin-left: 30px;
+    /*margin-left: 30px;*/
     margin-top: 25px;
 }
 
 .image-4
 {
-    margin-left: 40px;
+    /*margin-left: 40px;*/
     margin-top: 30px;
 }
 
 .image5-6
 {
-    margin-left: 30px;
+    /*margin-left: 30px;*/
     margin-top: 30px;
 }
 
@@ -509,9 +513,10 @@ input
 #program
 {
     margin-left: 50px;
+    margin-right: 50px;
     margin-top: 25px;
     display: grid;
-    grid-template-columns: repeat(4, 300px);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "large1 small1 large2 small3"
                          "large1 small1 large2 empty2"
                          "large1 empty1 large2 small4"
@@ -586,6 +591,11 @@ input
 {
 	height: 210px;
     grid-area: small4;
+}
+
+.sortie
+{
+    transform: scale(1.05);
 }
 
 #fin
@@ -665,6 +675,30 @@ input
     list-style-type: none;
 }
 
+/*@media screen and (max-width: 1442px) {
+    #container1 {
+        width: auto;
+    }
+
+    #image1 {
+        flex-flow: column;
+    }
+
+    .image {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #program {
+        grid-template-columns: repeat(4, 200px);
+    }
+}*/
+
+@media screen and (max-width: 1443px) {
+    #container2 {
+        margin-left: 0px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     #logo {
@@ -809,19 +843,21 @@ input
     }
 
     #image1 {
-        width: 100%;
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px
     }
 
     .image {
         width: 100%;
-        margin-left: 20px;
-        margin-right: 20px; 
+        /*margin-left: 20px;
+        margin-right: 20px;*/ 
     }
 
     .image2-3 {
         width: 100%; 
-        margin-left: 20px;
-        margin-right: 20px; 
+        /*margin-left: 20px;
+        margin-right: 20px;*/ 
     }
 
     .photo {
@@ -932,3 +968,4 @@ input
         margin-bottom: 15px;
     }
 }
+
