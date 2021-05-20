@@ -675,32 +675,76 @@ input
     list-style-type: none;
 }
 
-/*@media screen and (max-width: 1442px) {
-    #container1 {
-        width: auto;
-    }
-
-    #image1 {
-        flex-flow: column;
-    }
-
-    .image {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    #program {
-        grid-template-columns: repeat(4, 200px);
-    }
-}*/
-
 @media screen and (max-width: 1443px) {
     #container2 {
         margin-left: 0px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1415px) {
+    #image1 {
+        justify-content: space-evenly;
+    }
+
+    .image-4 {
+        margin-top: 25px;
+    }
+
+    /*#program {
+        grid-template-columns: repeat(4, 200px);
+    }*/
+}
+
+
+
+@media screen and (max-width: 1170px) {
+    #container1 {
+        width: min-content;
+        margin-left: 50px;
+    }
+
+    #image1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #container2 {
+        margin-right: 50px;
+    }
+    
+    #bloc2 {
+        margin-left: 40px;
+    }
+
+    .fas.fa-chart-line {
+        margin-right: 40px;
+    }
+
+    #picture {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /*.photo2 {
+        width: 230px;
+    }  
+
+    .description-2 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .nuit-2 {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .etoile2 {
+        margin-top: 60px;
+    }*/
+}
+
+@media screen and (max-width: 530px) {
     #logo {
         margin-top: 30px;
         margin-left: 20px;
@@ -747,6 +791,10 @@ input
 
     form {
         margin-left: 20px;
+    }
+
+    /*form {
+        margin-left: 20px;
         width: auto;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
@@ -790,7 +838,7 @@ input
         display: block;
         padding-left: 17px;
         padding-right: 17px;
-    }
+    } */
 
     #filtre {
         margin-left: 23px;
@@ -844,8 +892,8 @@ input
 
     #image1 {
         width: auto;
-        margin-left: 20px;
-        margin-right: 20px
+        margin-left: 0px;
+        margin-right: 0px
     }
 
     .image {
@@ -949,6 +997,59 @@ input
         margin-bottom: 50px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    form {
+        margin-left: 20px;
+        width: auto;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-right: 20px;
+    }
+
+    #Marseille {
+        width: 100%;
+        padding-bottom: 1px;
+    }
+
+    .fa-map-marker-alt {
+        transform: scale(1.07);
+    }
+
+    .recherche {
+        width: 100%;
+    }
+
+    .recherche::placeholder {
+        padding-left: 20px;
+        padding-right: 65px;
+    }
+
+    .recherche-1 {
+        width: 50px;
+        border-top: #0065fc;
+        border-bottom: #0065fc;
+        border-radius: 15px;
+        transform: scale(1.07);
+    }
+
+    .recherche-2 {
+        display: none;
+    }
+
+    .fas.fa-search {
+        font-size: 17px;
+        background-color: #0065fc;
+        color: #fff;
+        display: block;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+}
+
+
+
+
 
 @media screen and (max-width: 280px) {
     .image2 {
