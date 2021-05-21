@@ -64,6 +64,7 @@ nav
 .element-3
 {
     margin-right: 50px;
+    padding-right: 0px;
     color: #0065fc;
 }
 
@@ -403,9 +404,9 @@ input
 {
     display: flex;
     flex-flow: column nowrap;
-    margin-left: 40px;
+    /*margin-left: 40px;*/
     margin-right: 50px;
-    border-radius: 2%;
+    border-radius: 10px;
     background-color: #f2f2f2;
 }
 
@@ -695,8 +696,6 @@ input
     }*/
 }
 
-
-
 @media screen and (max-width: 1170px) {
     #container1 {
         width: min-content;
@@ -742,6 +741,38 @@ input
     .etoile2 {
         margin-top: 60px;
     }*/
+}
+
+@media screen and (max-width: 890px) {
+    #container {
+        flex-flow: column-reverse;
+    }
+
+    #container2 {
+        margin-right: 0px;
+    }
+
+    #activity {
+        flex-flow: column wrap;
+    }
+
+    #program {
+        grid-template-columns: 100%;
+        grid-auto-rows: 190px;
+        grid-template-areas: "large1" "small1" "small2" "large2" "small3" "small4";
+        grid-gap: 25px;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+
+    .card {
+        height: 190px;
+    }
+
+    #droite {
+        margin-right: 50px;
+    }
 }
 
 @media screen and (max-width: 530px) {
@@ -1047,11 +1078,7 @@ input
     }
 }
 
-
-
-
-
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 312px) {
     .image2 {
         flex-flow: row nowrap;
     }
