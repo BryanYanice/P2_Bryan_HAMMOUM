@@ -267,14 +267,14 @@ input
     justify-content: space-between;
 }
 
-#container1
+#hebergement
 {   margin-left: 50px;
     width: calc(100% - 600px);
     border-radius: 10px;
     background-color: #f2f2f2;
 }
 
-#bloc1
+#title-hebergement /*bloc1*/
 {
     font-size: 16px;
     font-weight: bold;
@@ -282,7 +282,7 @@ input
     margin-top: 45px;
 }
 
-#image1
+#carte-hebergent /*image1*/
 {
     display: flex;
     flex-flow: row wrap;
@@ -679,9 +679,9 @@ input
 }
 
 @media screen and (max-width: 1415px) {
-    #image1 {
+    #carte-hebergent {
         justify-content: space-evenly;
-    }
+    } /*image1*/
 
     .image-4 {
         margin-top: 25px;
@@ -693,19 +693,19 @@ input
         flex-flow: column-reverse;
     }
 
-    #container1 {
+    #hebergement {
         margin-left: 0px;
         width: 100%;
         background-color: #fff;
     }
 
-    #image1 {
+    #carte-hebergent {
         padding-left: 50px;
         padding-right: 50px;
         margin-left: 0px;
         margin-right: 0px;
         justify-content: space-between;
-    }
+    } /*image1*/
 
     .plus {
         margin-top: 40px;
@@ -761,22 +761,22 @@ input
 }
 
 @media screen and (max-width: 890px) {
-    #container1 {
+    #hebergement {
         margin-left: 0px;
         width: 100%;
     }
 
-    #bloc1 {
+    #title-hebergement {
         margin-left: 50px;
-    }
+    } /*bloc1*/
 
-    #image1 {
+    #carte-hebergent {
         padding-left: 50px;
         padding-right: 50px;
         margin-left: 0px;
         margin-right: 0px;
         justify-content: space-between;
-    }
+    } /*image1*/
 
     .image5-6 {
         margin-top: 25px;
@@ -837,13 +837,13 @@ input
 }
 
 @media screen and (max-width: 590px) {
-    #container1 {
+    #hebergement {
         background-color: #fff;
     }
 
-    #image1 {
+    #carte-hebergent {
         flex-flow: column;
-    }
+    } /*image*/
 
     .image {
         width: 100%;
@@ -948,7 +948,7 @@ input
         flex-flow: column-reverse;
     }
 
-    #container1 {
+    #hebergement {
         background-color: #fff;
         margin-left: 0px;
         margin-top: 40px;
@@ -956,24 +956,24 @@ input
         border-radius: 0px;
     }
 
-    #bloc1 {
+    #title-hebergement {
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 0px;
-    }
+    } /*bloc1*/
 
     .lodging {
         display: flex;
         width: 100%;
     }
 
-    #image1 {
+    #carte-hebergent {
         width: auto;
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 20px;
         padding-right: 20px;
-    }
+    } /*image1*/
 
     .image {
         width: 100%;
