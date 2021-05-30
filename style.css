@@ -303,7 +303,7 @@ input
 }
 
 .lodging:hover,
-#program .card:hover
+#bloc-activity .card:hover
 {
     transform: scale(1.05);
     color: black;
@@ -397,7 +397,7 @@ input
     cursor: pointer;
 }
 
-#container2
+#popular
 {
     display: flex;
     flex-flow: column nowrap;
@@ -406,7 +406,7 @@ input
     background-color: #f2f2f2;
 }
 
-#bloc2
+#title-popular
 {
     display: flex;
     justify-content: space-between;
@@ -431,7 +431,7 @@ input
     margin-right: 40px;
 }
 
-.image2
+.carte-polular
 {
     display: flex;
     flex-flow: row wrap;
@@ -442,18 +442,18 @@ input
     box-shadow: 3px 3px 10px #d9d9d9;
 }
 
-.image2sur3
+.popular-2
 {
     margin-top: 35px;
 }
 
-.image3sur3
+.popular-3
 {
     margin-top: 35px;
     margin-bottom: 35px;
 }
 
-.photo2
+.photo-popular
 {
     width: 130px;
     height: 135px;
@@ -465,14 +465,14 @@ input
     object-fit: cover;
 }
 
-.global
+.description-popular
 {
     display: flex;
     flex-flow: column;
     margin-left: 20px;
 }
 
-.description-2
+.popular-name
 {
     font-size: 14px;
     font-weight: bold;
@@ -480,14 +480,14 @@ input
     color: black;
 }
 
-.nuit-2
+.prix-popular
 {
     font-size: 12px;
     margin-top: 10px;
     color: black;
 }
 
-.etoile2
+.etoile-popular
 {
     margin-top: 40px;
 }
@@ -500,14 +500,14 @@ input
     width: 100%;
 }
 
-#chois
+#title-activity
 {
     margin-left: 50px;
     font-size: 16px;
     font-weight: bold;
 }
 
-#program
+#bloc-activity
 {
     margin-left: 50px;
     margin-right: 50px;
@@ -542,7 +542,7 @@ input
     grid-area: large1;
 }
 
-.card .nom
+.card .activity-name
 {
     font-size: 12px;
     font-weight: bold;
@@ -673,7 +673,7 @@ input
 }
 
 @media screen and (max-width: 1443px) {
-    #container2 {
+    #popular {
         margin-left: 0px;
     }
 }
@@ -718,12 +718,12 @@ input
         background-color: #fff;
     }
 
-    #container2 {
+    #popular {
         margin-right: 0px;
         border-radius: 0;
     }
     
-    #bloc2 {
+    #title-popular {
         margin-left: 50px;
     }
 
@@ -740,23 +740,23 @@ input
         margin-right: 50px;
     }
 
-    .image2sur3 {
+    .popular-2 {
         margin-top: 0px;
     }
 
-    .image3sur3 {
+    .popular-3 {
         margin-top: 0px;
     }
 }
 
 @media screen and (max-width: 1135px) {
-    .image1sur3 {
+    .popular-1 {
         margin-bottom: 25px;
     }
 }
 
 @media screen and (max-width: 975px) {
-    #program {
+    #bloc-activity {
         grid-template-areas: "large1 small1"
         "large1 small2"
         "small3 large2"
@@ -801,11 +801,11 @@ input
 }
 
 @media screen and (max-width: 790px) {
-    #container2 {
+    #popular {
         margin-right: 0px;
     }
     
-    #bloc2 {
+    #title-popular {
         margin-left: 50px;
     }
     
@@ -820,23 +820,23 @@ input
         flex-flow: column nowrap;
     }
     
-    .image2 {
+    .carte-polular {
         width: 100%;
     }
     
-    .image1sur3 {
+    .popular-1 {
         margin-bottom: 25px;
     }
         
-    .image2sur3 {
+    .popular-2 {
         margin-bottom: 25px;
     }
     
-    .photo2 {
+    .photo-popular {
         width: 40%;
     }
     
-    .global {
+    .description-popular {
         margin-left: 30px;
     }
 }
@@ -858,7 +858,7 @@ input
         background-color: #fff;
     }
 
-    #program {
+    #bloc-activity {
         grid-template-columns: 100%;
         grid-auto-rows: 190px;
         grid-template-areas: "large1" "small1" "small2" "large2" "small3" "small4";
@@ -997,13 +997,13 @@ input
         margin-left: 20px;
     }
 
-    #container2 {
+    #popular {
         width: 100%;
         border-radius: 0px;
         margin-left: 0px;
     }
 
-    #bloc2 {
+    #title-popular {
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 45px;
@@ -1019,11 +1019,11 @@ input
         width: auto;
     }
 
-    .image2 {
+    .carte-polular {
         width: 100%;
     }
 
-    .photo2 {
+    .photo-popular {
         width: 125px;
         height: 135px;
     }
@@ -1034,11 +1034,11 @@ input
         margin-top: 60px;
     }
 
-    #chois {
+    #title-activity {
         margin-left: 20px;
     }
 
-    #program {
+    #bloc-activity {
         grid-template-columns: 100%;
         grid-auto-rows: 190px;
         grid-template-areas: "large1" "small1" "small2" "large2" "small3" "small4";
@@ -1126,19 +1126,19 @@ input
 }
 
 @media screen and (max-width: 312px) {
-    .image2 {
+    .carte-polular {
         flex-flow: row nowrap;
     }
 
-    .global {
+    .description-popular {
         margin-left: 15px;
     }
 
-    .etoile2 {
+    .etoile-popular {
         margin-top: 10px;
     }
 
-    .galaxy {
+    .small {
         margin-top: 0px;
         margin-bottom: 15px;
     }
