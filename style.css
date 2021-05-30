@@ -282,7 +282,7 @@ input
     margin-top: 45px;
 }
 
-#carte-hebergent /*image1*/
+#bloc-hebergement /*image1*/
 {
     display: flex;
     flex-flow: row wrap;
@@ -291,7 +291,7 @@ input
     justify-content: space-between;
 }
 
-.image
+.carte-hebergement
 {
     display: flex;
     flex-flow: column nowrap;
@@ -309,27 +309,27 @@ input
     color: black;
 }
 
-.image-1
+.carte-1
 {
     margin-top: 25px;
 }
 
-.image2-3
+.carte_2-3
 {
     margin-top: 25px;
 }
 
-.image-4
+.carte-4
 {
     margin-top: 30px;
 }
 
-.image5-6
+.carte_5-6
 {
     margin-top: 30px;
 }
 
-.photo
+.photo-hebergement
 {
     margin-left: 5px;
     margin-right: 5px; 
@@ -341,7 +341,7 @@ input
     object-fit: cover;
 }
 
-.description
+.hostel-name
 {
     font-size: 14px;
     font-weight: bold;
@@ -350,7 +350,7 @@ input
     color: black;
 }
 
-.nuit
+.prix-hebergement
 {
     font-size: 12px;
     margin-top: 8px;
@@ -381,10 +381,10 @@ input
     color: #d9d9d9;
 }
 
-.plus,
-.plus:hover,
-.plus:active,
-.plus:focus
+.plus-hebergement,
+.plus-hebergement:hover,
+.plus-hebergement:active,
+.plus-hebergement:focus
 {
     display: inline-block;
     margin-top: 40px;
@@ -679,12 +679,16 @@ input
 }
 
 @media screen and (max-width: 1415px) {
-    #carte-hebergent {
+    #bloc-hebergement {
         justify-content: space-evenly;
     } /*image1*/
 
-    .image-4 {
+    .carte-4 {
         margin-top: 25px;
+    }
+
+    .plus-hebergement {
+        padding-bottom: 40px;
     }
 }
 
@@ -699,7 +703,7 @@ input
         background-color: #fff;
     }
 
-    #carte-hebergent {
+    #bloc-hebergement {
         padding-left: 50px;
         padding-right: 50px;
         margin-left: 0px;
@@ -707,9 +711,10 @@ input
         justify-content: space-between;
     } /*image1*/
 
-    .plus {
+    .plus-hebergement {
         margin-top: 40px;
         margin-left: 50px;
+        padding-bottom: 0;
         background-color: #fff;
     }
 
@@ -770,7 +775,7 @@ input
         margin-left: 50px;
     } /*bloc1*/
 
-    #carte-hebergent {
+    #bloc-hebergement {
         padding-left: 50px;
         padding-right: 50px;
         margin-left: 0px;
@@ -778,11 +783,11 @@ input
         justify-content: space-between;
     } /*image1*/
 
-    .image5-6 {
+    .carte_5-6 {
         margin-top: 25px;
     }
 
-    .plus {
+    .plus-hebergement {
         margin-left: 50px;
     }
 
@@ -841,15 +846,15 @@ input
         background-color: #fff;
     }
 
-    #carte-hebergent {
+    #bloc-hebergement {
         flex-flow: column;
     } /*image*/
 
-    .image {
+    .carte-hebergement {
         width: 100%;
     }
 
-    .plus {
+    .plus-hebergement {
         background-color: #fff;
     }
 
@@ -967,7 +972,7 @@ input
         width: 100%;
     }
 
-    #carte-hebergent {
+    #bloc-hebergement {
         width: auto;
         margin-left: 0px;
         margin-right: 0px;
@@ -975,19 +980,19 @@ input
         padding-right: 20px;
     } /*image1*/
 
-    .image {
+    .carte-hebergement {
         width: 100%;
     }
 
-    .image2-3 {
+    .carte_2-3 {
         width: 100%;
     }    
 
-    .photo {
+    .photo-hebergement {
         width: auto;
     }
 
-    .plus {
+    .plus-hebergement {
         margin-top: 35px;
         margin-left: 20px;
     }
