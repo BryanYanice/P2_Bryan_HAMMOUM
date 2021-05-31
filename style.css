@@ -712,7 +712,7 @@ input
         padding-right: 50px;
         margin-left: 0px;
         margin-right: 0px;
-        justify-content: space-between;
+        justify-content: space-evenly;
     } 
 
     .plus-hebergement {
@@ -744,6 +744,10 @@ input
         margin-right: 50px;
     }
 
+    .carte-polular {
+        width: 290px;
+    }
+
     .popular-2 {
         margin-top: 0px;
     }
@@ -759,7 +763,17 @@ input
     }
 }
 
+@media screen and (max-width: 1080px) {
+    #bloc-hebergement {
+        justify-content: space-between;
+    }
+}
+
 @media screen and (max-width: 975px) {
+    .carte-polular {
+        width: 345px;
+    }
+
     #bloc-activity {
         grid-template-areas: "large1 small1"
         "large1 small2"
