@@ -125,6 +125,7 @@ form
     font-weight: bold;
     padding-left: 17px;
     padding-right: 70px;
+    font-family:'Raleway', sans-serif;
 }
 
 #choix
@@ -218,6 +219,7 @@ input
     margin-right: 22px;
     position: relative;
     bottom: 2px;
+    font-family:'Raleway', sans-serif;
 }
 
 .fas.fitericon
@@ -672,7 +674,7 @@ input
     list-style-type: none;
 }
 
-@media screen and (max-width: 1443px) {
+/*@media screen and (max-width: 1443px) {
     #popular {
         margin-left: 0px;
     }
@@ -690,7 +692,7 @@ input
     .plus-hebergement {
         padding-bottom: 40px;
     }
-}
+}*/
 
 @media screen and (max-width: 1170px) {
     #container {
@@ -725,6 +727,7 @@ input
     #popular {
         margin-right: 0px;
         border-radius: 0;
+        width: 100%;
     }
     
     #title-popular {
@@ -748,16 +751,33 @@ input
         width: 290px;
     }
 
+    .popular-1 {/*ajout 3 media queries max*/
+        margin-bottom: 30px; 
+    }
+
     .popular-2 {
         margin-top: 0px;
+        margin-bottom: 30px;/*ajout 3 media queries max*/
     }
 
     .popular-3 {
         margin-top: 0px;
     }
+
+    #bloc-activity {
+        grid-template-areas: "large1 small1"
+        "large1 small2"
+        "small3 large2"
+        "small4 large2";
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #contact-footer {
+        margin-right: 50px;
+    }
 }
 
-@media screen and (max-width: 1135px) {
+/*@media screen and (max-width: 1135px) {
     .popular-1 {
         margin-bottom: 25px;
     }
@@ -853,9 +873,31 @@ input
     .description-popular {
         margin-left: 30px;
     }
+}*/
+
+@media screen and (max-width: 680px) {
+    #bloc-hebergement {
+        flex-flow: column nowrap;
+    }
+
+    .carte-hebergement {
+        width: auto;
+    }
+
+    #picture {
+        flex-flow: column nowrap;
+    }
+
+    .carte-polular {
+        width: 100%;
+    }
+
+    .image-popular {
+        width: 40%;
+    }
 }
 
-@media screen and (max-width: 590px) {
+/*@media screen and (max-width: 590px) {
     #hebergement {
         background-color: #fff;
     }
@@ -885,9 +927,9 @@ input
     .card {
         height: 190px;
     }
-}
+}*/
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 520px) { /*530*/
     #logo {
         margin-top: 30px;
         margin-left: 20px;
@@ -1092,7 +1134,7 @@ input
     }
 }
 
-@media screen and (max-width: 450px) {
+/*@media screen and (max-width: 450px) {
     form {
         margin-left: 20px;
         width: auto;
@@ -1156,4 +1198,4 @@ input
         margin-top: 0px;
         margin-bottom: 15px;
     }
-}
+}*/
